@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+}
+
+
+form {
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 10px;
+    max-width: 400px; /* Ajusta el valor según el ancho deseado */
+    margin: auto; /* Centra el formulario horizontalmente */
+    padding: 10px; /* Agrega un relleno para separar el borde del contenido */
+    background-color: black;
+}
+
+
+.form-group label[for="contraseña"] {
+    margin-right: 122px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: "Poppins", sans-serif;
+    font-size: x-small;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.forgot-password { /* Seleccionamos el enlace de forgot password y realizamos cambios para fines esteticos*/
+    font-size: x-small;
+    position: relative;
+    top: 72px;
+    left: 45px;
+    display: inline-block;
+    margin-left: 10px;
+    color: #2f81f7; /* cambia el color a tu gusto */
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.forgot-password:hover{
+    color: deepskyblue;
+}
+
+
+
+.form-group label[for="name"] {
+    margin-right: 70px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: "Poppins", sans-serif;
+    font-size: x-small;
+    display: block;
+    margin-bottom: 2px;
+}
+
+
+#Contraseña { /* Seleccionamos el id de nuestro label Password*/
+    text-align: center;
+    border-radius: 4px;
+}
+
+#name { /* Seleccionamos el id de nuestro label name (en este caso User)*/
+    text-align: center;
+    border-radius: 4px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-bottom:  10px;
+}
+
+.botones button {
+    width: auto;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    border-radius: 5px ;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
+}
+
+.botones button:last-child {
+    margin-right: 0;   
+}
+
+.botones button img {
+    margin-right: 10px;
+}
+
+
+button:hover {
+    background-image: linear-gradient(to right, blue,violet);
+    color:white;
+    border: 1px solid black;
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+footer{
+    text-align: center;
+    font-size: x-small;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+button{
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+button[type="submit"] {
+    margin: 20px auto;
+}
+
+
+.google button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    padding: 5px 20px;
+    transition: all 0.3s ease-in-out;
+    
+}
+  
+.google button:hover {
+    background-image: linear-gradient(to right, blue,violet);
+    border: 1px solid black;
+    color: #fff;
+}
+
+
+
+.facebook button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    padding: 5px 20px;
+    transition: all 0.3s ease-in-out;
+}
+  
+.facebook button:hover {
+    background-image: linear-gradient(to right, blue,violet);
+    color: #fff;
+    border: 1px solid black;
+}
+
+.apple button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+    padding: 5px 20px;
+    transition: all 0.3s ease-in-out;
+}
+  
+.apple button:hover {
+    background-image: linear-gradient(to right, blue,violet);
+    border: 1px solid black;
+    color: #fff;
+}
+
+
+
+body {
+    background: linear-gradient(to left, blue,violet);
+}
+
+@media (min-width: 768px) {
+    form {
+      width: 50%;
+      margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    form {
+      width: 90%;
+    }
+}
+
+input[type="text"]{
+    text-align: left;
+}
